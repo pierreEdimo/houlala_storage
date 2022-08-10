@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "xDnJjSTjVsuLUJk2oJpaaMsJyVBGMaRplMqSMlR7DPc=",
+  "Source": "houlala_storage",
+  "BasePath": "_content/houlala_storage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "houlala_storage/wwwroot",
+      "Source": "houlala_storage",
+      "ContentRoot": "/home/pierre/workspace/houlala_workspace/houlala_storage/wwwroot/",
+      "BasePath": "_content/houlala_storage",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
