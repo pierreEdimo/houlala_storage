@@ -5,7 +5,7 @@ using houlala_storage.Model;
 namespace houlala_storage.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class UploadController : ControllerBase
 {
     private readonly IFileStorageService? _fileStorageService;
