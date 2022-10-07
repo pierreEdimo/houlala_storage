@@ -1,0 +1,11 @@
+/home/pierre/workspace/houlala_workspace/houlala_storage/bin/Release/net6.0/publish/houlala_storage
+/home/pierre/workspace/houlala_workspace/houlala_storage/bin/Release/net6.0/publish/appsettings.Development.json
+/home/pierre/workspace/houlala_workspace/houlala_storage/bin/Release/net6.0/publish/appsettings.json
+/home/pierre/workspace/houlala_workspace/houlala_storage/bin/Release/net6.0/publish/houlala_storage.dll
+/home/pierre/workspace/houlala_workspace/houlala_storage/bin/Release/net6.0/publish/houlala_storage.deps.json
+/home/pierre/workspace/houlala_workspace/houlala_storage/bin/Release/net6.0/publish/houlala_storage.runtimeconfig.json
+/home/pierre/workspace/houlala_workspace/houlala_storage/bin/Release/net6.0/publish/houlala_storage.pdb
+/home/pierre/workspace/houlala_workspace/houlala_storage/bin/Release/net6.0/publish/Microsoft.OpenApi.dll
+/home/pierre/workspace/houlala_workspace/houlala_storage/bin/Release/net6.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/pierre/workspace/houlala_workspace/houlala_storage/bin/Release/net6.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/pierre/workspace/houlala_workspace/houlala_storage/bin/Release/net6.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll

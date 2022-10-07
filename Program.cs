@@ -1,4 +1,4 @@
-using houlala_storage.Services; 
+using houlala_storage.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,15 +14,14 @@ builder.Services.AddTransient<IFileStorageService, InAppStorageService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
 
 app.UseHttpsRedirection();
 
-app.UseStaticFiles(); 
+app.UseStaticFiles();
 
 app.UseAuthorization();
 
