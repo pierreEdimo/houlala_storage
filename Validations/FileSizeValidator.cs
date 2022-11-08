@@ -1,36 +1,36 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace houlala_storage
+namespace houlala_storage.Validations
 {
-    public class FileSizeValidator: ValidationAttribute
+    public class FileSizeValidator : ValidationAttribute
     {
-        private readonly int maxFile; 
-        
+        private readonly int _maxFile;
+
         public FileSizeValidator(int maxFile)
         {
-            this.maxFile = maxFile; 
+            this._maxFile = maxFile;
         }
 
         protected override ValidationResult? IsValid(object? value, ValidationContext? validationContext)
         {
-           if(value == null)
+            if (value == null)
             {
-                return ValidationResult.Success; 
+                return ValidationResult.Success;
             }
 
-            IFormFile? formFile = value as IFormFile; 
+            IFormFile? formFile = value as IFormFile;
 
-            if(formFile == null)
+            if (formFile == null)
             {
-                return ValidationResult.Success; 
+                return ValidationResult.Success;
             }
 
-            if(formFile.Length > maxFile * 1024 * 1024)
+            if (formFile.Length > _maxFile * 4048 * 4048)
             {
-                return new ValidationResult($"File size cannot be bigger than {maxFile} megabytes "); 
+                return new ValidationResult($"File size cannot be bigger than {_maxFile} megabytes ");
             }
 
-            return ValidationResult.Success; 
+            return ValidationResult.Success;
         }
     }
 }

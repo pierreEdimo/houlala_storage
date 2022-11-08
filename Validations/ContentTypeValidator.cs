@@ -4,13 +4,13 @@ namespace houlala_storage.Validations
 {
     public class ContentTypeValidator : ValidationAttribute
     {
-        private readonly String[]? validContentTypes;
+        private readonly String[]? _validContentTypes;
 
-        private readonly String[]? imageContentTypes = new string[] { "image/jpeg", "image/png", "image/gif" };
+        private readonly String[]? _imageContentTypes = new string[] { "image/jpeg","image/jpg", "image/png", "image/gif" };
 
-        public ContentTypeValidator(String[] ValidContentTypes)
+        public ContentTypeValidator(String[] validContentTypes)
         {
-            validContentTypes = ValidContentTypes;
+            _validContentTypes = validContentTypes;
         }
 
         public ContentTypeValidator(ContentTypeGroup contentTypeGroup)
@@ -18,7 +18,7 @@ namespace houlala_storage.Validations
             switch (contentTypeGroup)
             {
                 case ContentTypeGroup.Image:
-                    validContentTypes = imageContentTypes;
+                    _validContentTypes = _imageContentTypes;
                     break;
             }
         }
@@ -38,9 +38,9 @@ namespace houlala_storage.Validations
             }
 
 
-            if (!validContentTypes!.Contains(formFile.ContentType))
+            if (!_validContentTypes!.Contains(formFile.ContentType))
             {
-                return new ValidationResult($"Content-Type should be one the following: {string.Join(", ", validContentTypes!)}");
+                return new ValidationResult($"Content-Type should be one the following: {string.Join(", ", _validContentTypes!)}");
             }
 
             return ValidationResult.Success;
