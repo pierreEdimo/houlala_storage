@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xDnJjSTjVsuLUJk2oJpaaMsJyVBGMaRplMqSMlR7DPc=",
+  "Hash": "oc4bb86OuQXryY0SRNGNnicsBvUUo9nLJw49VqUxiWw=",
   "Source": "houlala_storage",
   "BasePath": "_content/houlala_storage",
   "Mode": "Default",
@@ -15,5 +15,23 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "/home/pierre/workspace/houlala_workspace/houlala_storage/wwwroot/index.html",
+      "SourceId": "houlala_storage",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/pierre/workspace/houlala_workspace/houlala_storage/wwwroot/",
+      "BasePath": "_content/houlala_storage",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
 }
