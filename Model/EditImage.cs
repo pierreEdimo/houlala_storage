@@ -5,7 +5,7 @@ namespace houlala_storage.Model;
 
 public class EditImage
 {
-    [FileSizeValidator(4)]
+    [FileSizeValidator(10)]
     [ContentTypeValidator(ContentTypeGroup.Image)]
     public IFormFile? Image { get; set; }
 
