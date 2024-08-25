@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net8.0": {
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -219,35 +219,34 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net8.0": [
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
   "packageFolders": {
-    "/home/pierre/.nuget/packages/": {}
+    "/home/pnk/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/pierre/workspace/houlala_workspace/houlala_storage/houlala_storage.csproj",
+      "projectUniqueName": "/home/pnk/workspace/houlala_v2/houlala_storage/houlala_storage.csproj",
       "projectName": "houlala_storage",
-      "projectPath": "/home/pierre/workspace/houlala_workspace/houlala_storage/houlala_storage.csproj",
-      "packagesPath": "/home/pierre/.nuget/packages/",
-      "outputPath": "/home/pierre/workspace/houlala_workspace/houlala_storage/obj/",
+      "projectPath": "/home/pnk/workspace/houlala_v2/houlala_storage/houlala_storage.csproj",
+      "packagesPath": "/home/pnk/.nuget/packages/",
+      "outputPath": "/home/pnk/workspace/houlala_v2/houlala_storage/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/pierre/.nuget/NuGet/NuGet.Config"
+        "/home/pnk/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net8.0"
       ],
       "sources": {
-        "/usr/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -258,8 +257,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -285,7 +284,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

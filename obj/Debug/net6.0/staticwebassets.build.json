@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oc4bb86OuQXryY0SRNGNnicsBvUUo9nLJw49VqUxiWw=",
+  "Hash": "Y2x6xky9ai2N3wpI0lpkr1cPbxHUtiNl3aW5KACRnF4=",
   "Source": "houlala_storage",
   "BasePath": "_content/houlala_storage",
   "Mode": "Default",
@@ -10,22 +10,24 @@
     {
       "Name": "houlala_storage/wwwroot",
       "Source": "houlala_storage",
-      "ContentRoot": "/home/pierre/workspace/houlala_workspace/houlala_storage/wwwroot/",
+      "ContentRoot": "/home/pnk/workspace/houlala_v2/houlala_storage/wwwroot/",
       "BasePath": "_content/houlala_storage",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/pierre/workspace/houlala_workspace/houlala_storage/wwwroot/index.html",
+      "Identity": "/home/pnk/workspace/houlala_v2/houlala_storage/wwwroot/index.html",
       "SourceId": "houlala_storage",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/pierre/workspace/houlala_workspace/houlala_storage/wwwroot/",
+      "ContentRoot": "/home/pnk/workspace/houlala_v2/houlala_storage/wwwroot/",
       "BasePath": "_content/houlala_storage",
       "RelativePath": "index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",

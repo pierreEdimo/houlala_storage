@@ -1,0 +1,11 @@
+/home/pnk/workspace/houlala_v2/houlala_storage/bin/Release/net8.0/publish/houlala_storage
+/home/pnk/workspace/houlala_v2/houlala_storage/bin/Release/net8.0/publish/appsettings.Development.json
+/home/pnk/workspace/houlala_v2/houlala_storage/bin/Release/net8.0/publish/appsettings.json
+/home/pnk/workspace/houlala_v2/houlala_storage/bin/Release/net8.0/publish/houlala_storage.dll
+/home/pnk/workspace/houlala_v2/houlala_storage/bin/Release/net8.0/publish/houlala_storage.deps.json
+/home/pnk/workspace/houlala_v2/houlala_storage/bin/Release/net8.0/publish/houlala_storage.runtimeconfig.json
+/home/pnk/workspace/houlala_v2/houlala_storage/bin/Release/net8.0/publish/houlala_storage.pdb
+/home/pnk/workspace/houlala_v2/houlala_storage/bin/Release/net8.0/publish/Microsoft.OpenApi.dll
+/home/pnk/workspace/houlala_v2/houlala_storage/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/pnk/workspace/houlala_v2/houlala_storage/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/pnk/workspace/houlala_v2/houlala_storage/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
